@@ -1,9 +1,49 @@
 .cabecera {
+    display:flex;
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
     position: fixed;
     top: 0;
     width: 100%;
-}  
+    justify-content: left;
+    align-items: center;
+    gap: 7.5%;
+    font-size: 23px;
+}
+.titulo{
+    margin-left: 15px;
+}
+.container{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    font-size: 17px;
+    padding-top:10px;
+
+}
+.ppt{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #333;
+}
+.pptls{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #333;
+}
+.ppt:hover{
+    background-color: #FFF6E0;
+    color:#333;
+    
+
+}
+.pptls:hover{
+    background-color: #FFF6E0;
+    color:#333;
+
+}
